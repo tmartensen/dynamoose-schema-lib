@@ -1,0 +1,49 @@
+{
+  "name": "dynamoose-schema-lib",
+  "version": "1.0.0",
+  "description": "library to hold Dynamoose schemas",
+  "homepage": "https://github.com/tmartensen/dynamoose-schema-lib#readme",
+  "bugs": {
+    "url": "https://github.com/tmartensen/dynamoose-schema-lib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmartensen/dynamoose-schema-lib.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "rimraf lib && tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.4.2",
+    "@nestjs/core": "^7.4.2",
+    "@types/uuid": "^8.3.0",
+    "dynamoose": "^2.3.0",
+    "nestjs-dynamoose": "^0.2.8",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^6.5.4"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.4.2",
+    "@nestjs/core": "^7.4.2",
+    "dynamoose": "^2.3.0",
+    "nestjs-dynamoose": "^0.2.8",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4"
+  }
+}
